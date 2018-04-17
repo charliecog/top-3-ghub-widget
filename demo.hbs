@@ -1,0 +1,9 @@
+{{#each data}}
+    <div class="repo {{this.name}}">
+        <img src="{{this.owner.avatar_url}}" />
+        <p>Name: {{this.name}}</p>
+        <p>Description: {{this.description}}</p>
+        <p>Created: {{this.created_at}}</p>
+        <p>Stars: {{this.stargazers_count}}</p>
+    </div>
+{{/each}}

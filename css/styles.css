@@ -1,0 +1,22 @@
+div {
+    background-color: #f4b642;
+    width: 300px;
+}
+
+p {
+    padding: 0 10px;
+    font-weight: bolder;
+}
+
+img {
+    float: right;
+    width: 50px;
+}
+
+/*.container {*/
+    /*border: 1px solid black;*/
+/*}*/
+
+
+
+
